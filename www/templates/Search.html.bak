@@ -1,0 +1,19 @@
+<center>
+<div class="bar bar-header bar-dark">
+  <h1 class="title">SEARCH</h1>
+</div>
+<div class="bar bar-header item-input-inset list bar-subheader">
+<a ui-sref="list">Back</a>
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search">
+	<a ui-sref="login">Home</a>
+  </label>
+  <button class="button button-clear">
+    Cancel
+  </button>
+</div>
+<div class="bar bar-footer bar-dark">
+  <div class="title"></div>
+</div>
+</center>

@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+<center>
+<div class="bar bar-header bar-dark">
+  <h1 class="title">HISTORY</h1>
+</div>
+
+<div class="list bar-subheader">
+<a ui-sref="login">Home</a>
+<a ui-sref="list">Next</a>
+  <div class="item item-avatar">
+    <img src="img/1.jpg">
+    <h2>Thanawat Ketnok</h2>
+    <p>TIGER</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" src="img/2.jpg">
+    <p> JUNE 12 1998 
+     
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+</div>
+<div class="bar bar-footer bar-dark">
+  <div class="title"></div>
+</div>
+</center>

@@ -1,31 +1,17 @@
-<center>
-<div class="bar bar-header bar-dark">
-  <h1 class="title">LIST</h1>
-</div>
-<div class="list bar-subheader">
-<a ui-sref="login">Back</a>
-  <a href="" class="item item-icon-left">
-    <i class="icon ion-home"></i>
-    Chaiyaphum
-  </a>
+<div class="list">
+ <a class="button icon-right ion-chevron-right button-dark" ui-sref="history">Back</a>
+ <a class="button icon-right ion-chevron-right button-dark" ui-sref="Search">Next</a>
+    <a ng-repeat="list in datalist" class="item item-thumbnail-left">
+      <img src="{{list.pic}}">
+	  
+      <h2>{{list.fname}}</h2>
+      <p>{{list.lname}}</p>
+    </a>
 
-  <a href="" class="item item-icon-left">
-    <i class="icon ion-ios-telephone"></i>
-    0934956891
-  </a>
+  
+   
 
-  <a href="" class="item item-icon-left">
-    <i class="icon ion-wifi"></i>
-    0000000000
-  </a>
-
-  <a href="" class="item item-icon-left">
-    <i class="icon ion-card"></i>
-    Thanawat Ketnok
-  </a>
-
-</div>
-<div class="bar bar-footer bar-dark">
-  <div class="title"></div>
 </div>
 </center>
+  </form>
+	</div>
